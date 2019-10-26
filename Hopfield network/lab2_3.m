@@ -9,7 +9,7 @@ imgs{3} = imread('baboon.bmp');
 imgs{4} = imread('crow.bmp');
 imgs{5} = imread('peppers.bmp');
 imgs{6} = imread('kodim.bmp');
-imgs{7} = imnoise(imgs{1}, 'salt & pepper', 1);
+imgs{7} = imnoise(imgs{1}, 'salt & pepper', 0.2);
 
 imgs = cellfun(@im2bw, imgs, 'UniformOutput', 0);
 imgs = cellfun(@(img) double(reshape(img, numel(img), 1)), imgs, 'UniformOutput', 0);
