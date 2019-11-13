@@ -8,5 +8,5 @@ function D = generateFunction(X)
         D = D + (i-n)*X.^ i;
         end
     end
-    D = D + 100*sin(X) - 50*cos(X);
+    D = (D + 100*sin(X) - 50*cos(X))./100;
 end

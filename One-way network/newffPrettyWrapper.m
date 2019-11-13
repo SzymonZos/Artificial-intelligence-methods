@@ -1,6 +1,6 @@
 function net = newffPrettyWrapper(variableInput, variableFunctionality)
     inputsLimits = [-4, 4];
-    layers = [7 1];
+    layers = [3 1];
     transferFunctions = {'tansig', 'purelin'};
     trainingFunction = 'trainlm';
 
