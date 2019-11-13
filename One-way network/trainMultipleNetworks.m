@@ -14,7 +14,17 @@ function outputValues = trainMultipleNetworks(variableInput, variableFunctionali
         [nets{index}, Ys{index}, Elearns(index), Etests(index)] = trainSingleNetwork(net, X, Xlearn, Dlearn, Xtest, Dtest);
     end
     legend('function', 'Xlearn', 'Xtest', 'network');
-    title([variableFunctionality, ': ', num2str(variableInput)])
+    if strcmp(variableFunctionality, 'layers') || strcmp(variableFunctionality, 'epochs') || strcmp(variableFunctionality, 'inputsLimits')
+        title([variableFunctionality, ': ', num2str(variableInput)])
+    elseif strcmp(variableFunctionality, 'transferFunctions')
+        toDisplay = '';
+        for index = 1 : length(variableInput)
+           toDisplay = [toDisplay, ' ', variableInput{index}]; 
+        end
+        title([variableFunctionality, ': ', toDisplay]);
+    elseif strcmp(variableFunctionality, 'trainingFunction')
+        title([variableFunctionality, ': ', variableInput]);
+    end
     outputValues{1} = nets;
     outputValues{2} = Ys;
     outputValues{3} = mean(Elearns);

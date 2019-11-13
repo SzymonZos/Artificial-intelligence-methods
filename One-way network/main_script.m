@@ -2,13 +2,11 @@ close all
 clear all
 warning('off', 'NNET:Obsolete')
 
-%% Introduction
+%% Function
 % 
-% Function:
-%
-% $4*x - 3*x^2 + 2*x^3 - x^4 + 100*\sin(x) - 50*\cos(x)$
+% $(4*x - 3*x^2 + 2*x^3 - x^4 + 100*\sin(x) - 50*\cos(x))/100$
 % 
-%% Generate function 
+%% Preparation of training and test sets
 X = -4 : 0.01 : 4;
 D = generateFunction(X);
 
@@ -26,34 +24,42 @@ hold on;
 plot(Xlearn, Dlearn, '*');
 plot(Xtest, Dtest, 'g*');
 legend('function', 'learn', 'test');
-%% Number of layers var
-maxNumberOfLayers = 5;
+title('Comparison of given function and sets');
+%% Variable number of layers
+maxNumberOfLayers = 7;
 numberOfLayers = 1:maxNumberOfLayers;
 layers = arrayfun(@(layer) [4*ones(1, layer), 1], numberOfLayers, 'UniformOutput', 0);
-
-varLayersOutputs = cellfun(@(layer) trainMultipleNetworks(layer, 'layers', X, Xlearn, Dlearn, Xtest, Dtest, 7, D), layers, 'UniformOutput', 0);
-%%
-%{
-net = newff([-4, 4], [7 1], {'tansig', 'purelin'}, 'trainlm'); %last: trainlm, traingd, traingdm; first: transig, logsig, purelin
-net.trainParam.epochs = 200;
-
-net = train(net, Xlearn, Dlearn);
-
-Y = sim(net, X);
-plot(X, Y);
-
-Ylearn = sim(net, Xlearn);
-Elearnmse = mse(Dlearn-Ylearn);
-%}
-%mse(net, D, Y)
+varLayersOutputs = cellfun(@(layer) trainMultipleNetworks(layer, 'layers', ...
+    X, Xlearn, Dlearn, Xtest, Dtest, 7, D), layers, 'UniformOutput', 0);
+plotErrors(varLayersOutputs);
 
 %Do sprawka: liczba neuronow w warstwie pierwszej -> N1 wykres Elearn(N1) +
 %Etest(N1) -> N1 opt znalezc
 
-%% Number of neurons var
+%% Variable number of neurons
+maxNumberOfNeurons = 20;
+neurons = cell(1, maxNumberOfNeurons);
+for index = 1 : maxNumberOfNeurons
+    neurons{index} = [index, 1];
+end
+varNeuronsOutputs = cellfun(@(neuron) trainMultipleNetworks(neuron, ...
+    'layers', X, Xlearn, Dlearn, Xtest, Dtest, 7, D), neurons, 'UniformOutput', 0);
+plotErrors(varNeuronsOutputs);
 
-%% Activation function var
+%% Variable activation functions
+transferFunctions = {{'tansig', 'tansig', 'purelin'}, ...
+                     {'tansig', 'logsig', 'purelin'}, ...
+                     {'logsig', 'tansig', 'purelin'}, ...
+                     {'logsig', 'logsig', 'purelin'}, ...
+                     {'purelin', 'logsig', 'purelin'}, ...
+                     {'tansig', 'purelin', 'purelin'}};
+varTransferFunctionsOutputs = cellfun(@(transferFunction) trainMultipleNetworks(transferFunction, ...
+    'transferFunctions', X, Xlearn, Dlearn, Xtest, Dtest, 7, D), transferFunctions, 'UniformOutput', 0);
+plotErrors(varTransferFunctionsOutputs);
+%% Variable method of learning
+trainingFunctions = {'trainlm', 'traingd', 'traingdm'};
+varTrainingFunctionsOutputs = cellfun(@(trainingFunction) trainMultipleNetworks(trainingFunction, ...
+    'trainingFunction', X, Xlearn, Dlearn, Xtest, Dtest, 7, D), trainingFunctions, 'UniformOutput', 0);
+plotErrors(varTrainingFunctionsOutputs);
 
-%% Method of learning var
-
-%% Epochs var
+%% Variable number of epochs

@@ -1,6 +1,6 @@
 function net = newffPrettyWrapper(variableInput, variableFunctionality)
     inputsLimits = [-4, 4];
-    layers = [3 1];
+    layers = [7 1];
     transferFunctions = {'tansig', 'purelin'};
     trainingFunction = 'trainlm';
 
@@ -17,6 +17,7 @@ function net = newffPrettyWrapper(variableInput, variableFunctionality)
             net = newff(inputsLimits, variableInput, transferFunctions, trainingFunction);
             net.trainParam.epochs = 200;
         case 'transferFunctions'
+            layers = [6 6 1];
             net = newff(inputsLimits, layers, variableInput, trainingFunction);
             net.trainParam.epochs = 200;
         case 'trainingFunction'
