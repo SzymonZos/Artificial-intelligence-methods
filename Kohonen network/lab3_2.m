@@ -1,3 +1,5 @@
+load Data_microarray
+
 lenOnes = 100;
 d1 = randn(2, lenOnes);
 d2 = randn(2, lenOnes) + 9;
@@ -11,8 +13,18 @@ X = [Data(:,1)' Data(:,2)'];
 lenOnes = length(Data);
 
 %%
-%wybór funkcji odleg³o
-%dist linkdist, mandist
+
+%{
+Na podstawie wektora przynale¿noœci konkretnych próbek do klas nale¿y oceniæ wp³yw
+• liczby neuronów: pierwszy parametr w selforgmap
+• topologii sieci (proszê zmodyfikowaæ strukturê sieci, lub zwiêkszyæ
+liczbê klas abstrakcji): ???????? hextop gridtop randtop?
+• wyboru funkcji odleg³oœci: ostatni parametr: dist linkdist, mandist
+• liczby epok uczenia: net.trainParam.epochs = 500;
+• wymiarowoœci sieci: ?????
+%}
+
+%%
 
 net = selforgmap([1 3], 100, 3, 'hextop', 'dist'); %hextop gridtop randtop -> coœ sprawdziæ
 net.trainParam.epochs = 500;
