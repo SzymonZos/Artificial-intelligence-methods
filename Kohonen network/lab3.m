@@ -23,6 +23,8 @@ liczbê klas abstrakcji): ???????? hextop gridtop randtop?
 possibleClasses = mat2cell(perms(1:numberOfClasses), ones(1, factorial(numberOfClasses)), numberOfClasses);
 possibleClasses = cellfun(@(possibleClass) cell2mat(arrayfun(@(x) x*ones(1,100), possibleClass, 'UniformOutput', 0)), possibleClasses, 'UniformOutput', 0);
 
+[net, y, classes, sumDistances] = trainNetwork(10, 'layers', X, possibleClasses);
+%{
 netFirst = selforgmap([1 5], 100, 3 , 'hextop', 'dist'); %hextop gridtop randtop -> coœ sprawdziæ
 netFirst.trainParam.epochs = 200;
 netFirst = train(netFirst, X);
@@ -41,3 +43,4 @@ sumDistancesMain = cellfun(@(Di) sum(double(Di == classesSecond)), D);
 
 figure;
 plotsompos(netSecond, X);
+%}

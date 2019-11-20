@@ -1,4 +1,4 @@
-function [net, y, classes, sumDistances] = trainNetwork(variableInput, variableFunctionality)
+function [net, y, classes, sumDistances] = trainNetwork(variableInput, variableFunctionality, X, D)
 %    net{1} = selforgmap([1 5], 100, 3 , 'hextop', 'dist'); %hextop gridtop randtop -> coœ sprawdziæ
 %    net{1}.trainParam.epochs = 200;
     net{1} = selforgmapPrettyWrapper(variableInput, variableFunctionality);
