@@ -1,0 +1,10 @@
+@>aB
+@>bB
+@>cC
+C>cC
+C>dC
+B>cA
+B>bA
+B>aA
+A>d
+

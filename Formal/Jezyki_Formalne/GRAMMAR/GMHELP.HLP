@@ -1,0 +1,23 @@
+ษอออออออออออออออออออออออออออออออออHELPออออออออออออออออออออออออออออออออออออออออป
+บ      Program sluzy do tworzenia i testowania oraz sprawdzania               บ
+บ   przynaleznosci wyrazow do gramatyk formalnych bezkontekstowych.           บ
+บ                                                                             บ
+บ      W celu utworzenia gramatyki wywolujemy Edit .                          บ
+บ   program przyjmuje nastepujace symbole:                                    บ
+บ      @     -  symbol poczatkowy                                             บ
+บ      A..Z  -  symbole pomocnicze                                            บ
+บ      a..z  -  symbole terminalne                                            บ
+บ   oraz do sterowania wprowadzaniem liter kursory i inne powszechnie uzywane บ
+บ   klawisze sterujace .						      บ
+บ                                                                             บ
+บ                                                                             บ
+บ	Operacje dyskowe mozna wykonywac za pomoca Save Load Merge .          บ
+บ   Program przyjmuje takze gramatyki zdefiniowane pod innymi edytorami.      บ
+บ   nalezy jedynie przestszegac notacji:    A > aA    ,gdzie                  บ
+บ   'a'- dowolny symbol terminalny;'A'- dowolny symbol pomocniczy             บ
+บ                                                                             บ
+บ		      Zyczymy milej wspolpracy !                              บ
+บ                                                                             บ
+บ                                                                             บ
+ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+

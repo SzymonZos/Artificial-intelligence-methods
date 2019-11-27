@@ -1,0 +1,542 @@
+------------------------------------------------
+Thu Feb 24 12:58:03 2005
+	Thread Manager Started.
+Thu Feb 24 12:58:03 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 3476
+Thu Feb 24 12:58:03 2005
+	New Thread Created. (BrainThread) ThreadID = 2788
+Thu Feb 24 12:58:03 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 3124
+Thu Feb 24 12:58:10 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 3124
+Thu Feb 24 12:58:11 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2788
+Thu Feb 24 12:58:11 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 3476
+Thu Feb 24 12:58:11 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Feb 24 12:58:52 2005
+	Thread Manager Started.
+Thu Feb 24 12:58:52 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2052
+Thu Feb 24 12:58:52 2005
+	New Thread Created. (BrainThread) ThreadID = 1332
+Thu Feb 24 12:58:52 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 688
+Thu Feb 24 12:59:22 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 688
+Thu Feb 24 12:59:23 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 1332
+Thu Feb 24 12:59:23 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2052
+Thu Feb 24 12:59:23 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Feb 24 13:00:46 2005
+	Thread Manager Started.
+Thu Feb 24 13:00:46 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 3668
+Thu Feb 24 13:00:46 2005
+	New Thread Created. (BrainThread) ThreadID = 2444
+Thu Feb 24 13:00:46 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 1856
+Thu Feb 24 13:01:22 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 1856
+Thu Feb 24 13:01:22 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2444
+Thu Feb 24 13:01:22 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 3668
+Thu Feb 24 13:01:23 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Feb 24 13:05:15 2005
+	Thread Manager Started.
+Thu Feb 24 13:05:16 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 3388
+Thu Feb 24 13:05:16 2005
+	New Thread Created. (BrainThread) ThreadID = 3400
+Thu Feb 24 13:05:16 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 2032
+Thu Feb 24 13:05:20 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 2032
+Thu Feb 24 13:05:21 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 3400
+Thu Feb 24 13:05:21 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 3388
+Thu Feb 24 13:05:21 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Feb 24 13:11:38 2005
+	Thread Manager Started.
+Thu Feb 24 13:11:38 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 3248
+Thu Feb 24 13:11:38 2005
+	New Thread Created. (BrainThread) ThreadID = 280
+Thu Feb 24 13:11:38 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 244
+Thu Feb 24 13:11:46 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 244
+Thu Feb 24 13:11:46 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 280
+Thu Feb 24 13:11:46 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 3248
+Thu Feb 24 13:11:46 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Feb 24 16:02:33 2005
+	Thread Manager Started.
+Thu Feb 24 16:02:33 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2548
+Thu Feb 24 16:02:33 2005
+	New Thread Created. (BrainThread) ThreadID = 772
+Thu Feb 24 16:02:33 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 1008
+Thu Feb 24 16:02:38 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 1008
+Thu Feb 24 16:02:38 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 772
+Thu Feb 24 16:02:38 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2548
+Thu Feb 24 16:02:38 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Mar 10 10:51:00 2005
+	Thread Manager Started.
+Thu Mar 10 10:51:01 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2656
+Thu Mar 10 10:51:01 2005
+	New Thread Created. (BrainThread) ThreadID = 3156
+Thu Mar 10 10:51:01 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 2036
+Thu Mar 10 10:51:08 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 2036
+Thu Mar 10 10:51:08 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 3156
+Thu Mar 10 10:51:09 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2656
+Thu Mar 10 10:51:09 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Mar 10 11:35:45 2005
+	Thread Manager Started.
+Thu Mar 10 11:35:45 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 628
+Thu Mar 10 11:35:45 2005
+	New Thread Created. (BrainThread) ThreadID = 2132
+Thu Mar 10 11:35:45 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 3216
+Thu Mar 10 11:41:14 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 3216
+Thu Mar 10 11:41:15 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2132
+Thu Mar 10 11:41:15 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 628
+Thu Mar 10 11:41:15 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Mar 10 11:44:27 2005
+	Thread Manager Started.
+Thu Mar 10 11:44:27 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 3836
+Thu Mar 10 11:44:27 2005
+	New Thread Created. (BrainThread) ThreadID = 3636
+Thu Mar 10 11:44:27 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 3668
+Thu Mar 10 11:47:43 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 3668
+Thu Mar 10 11:47:44 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 3636
+Thu Mar 10 11:47:44 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 3836
+Thu Mar 10 11:47:44 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Mar 10 11:56:19 2005
+	Thread Manager Started.
+Thu Mar 10 11:56:19 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2172
+Thu Mar 10 11:56:19 2005
+	New Thread Created. (BrainThread) ThreadID = 2208
+Thu Mar 10 11:56:19 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 3600
+Thu Mar 10 11:59:03 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 3600
+Thu Mar 10 11:59:04 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2208
+Thu Mar 10 11:59:04 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2172
+Thu Mar 10 11:59:04 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Mar 10 12:02:34 2005
+	Thread Manager Started.
+Thu Mar 10 12:02:34 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 3140
+Thu Mar 10 12:02:34 2005
+	New Thread Created. (BrainThread) ThreadID = 2892
+Thu Mar 10 12:02:34 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 3108
+Thu Mar 10 12:03:28 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 3108
+Thu Mar 10 12:03:28 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2892
+Thu Mar 10 12:03:28 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 3140
+Thu Mar 10 12:03:28 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Mar 10 12:05:17 2005
+	Thread Manager Started.
+Thu Mar 10 12:05:17 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2516
+Thu Mar 10 12:05:17 2005
+	New Thread Created. (BrainThread) ThreadID = 3656
+Thu Mar 10 12:05:17 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 344
+Thu Mar 10 12:06:30 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 344
+Thu Mar 10 12:06:30 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 3656
+Thu Mar 10 12:06:30 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2516
+Thu Mar 10 12:06:30 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Tue Mar 15 14:00:22 2005
+	Thread Manager Started.
+Tue Mar 15 14:00:23 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 1944
+Tue Mar 15 14:00:23 2005
+	New Thread Created. (BrainThread) ThreadID = 2996
+Tue Mar 15 14:00:23 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 4060
+Tue Mar 15 14:05:29 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 4060
+Tue Mar 15 14:05:30 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2996
+Tue Mar 15 14:05:30 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 1944
+Tue Mar 15 14:05:30 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Tue Mar 15 14:10:05 2005
+	Thread Manager Started.
+Tue Mar 15 14:10:05 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 904
+Tue Mar 15 14:10:05 2005
+	New Thread Created. (BrainThread) ThreadID = 3172
+Tue Mar 15 14:10:05 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 3816
+Tue Mar 15 14:15:13 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 3816
+Tue Mar 15 14:15:13 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 3172
+Tue Mar 15 14:15:13 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 904
+Tue Mar 15 14:15:13 2005
+	New Thread Created. (RealTransmiterThread) ThreadID = 1060
+Tue Mar 15 14:15:13 2005
+	New Thread Created. (BrainThread) ThreadID = 3628
+Tue Mar 15 14:15:19 2005
+	Thread Exited with code: 1 (BrainThread). ThreadID = 3628
+Tue Mar 15 14:15:19 2005
+	Thread Exited with code: 0 (RealTransmiterThread). ThreadID = 1060
+Tue Mar 15 14:15:20 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 3272
+Tue Mar 15 14:15:20 2005
+	New Thread Created. (BrainThread) ThreadID = 3568
+Tue Mar 15 14:15:20 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 3540
+Tue Mar 15 14:16:52 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 3540
+Tue Mar 15 14:16:52 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 3568
+Tue Mar 15 14:16:52 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 3272
+Tue Mar 15 14:16:53 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Wed Mar 16 11:39:41 2005
+	Thread Manager Started.
+Wed Mar 16 11:39:41 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2336
+Wed Mar 16 11:39:41 2005
+	New Thread Created. (BrainThread) ThreadID = 2340
+Wed Mar 16 11:39:41 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 2344
+Wed Mar 16 11:40:00 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 2344
+Wed Mar 16 11:40:00 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2340
+Wed Mar 16 11:40:00 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2336
+Wed Mar 16 11:40:01 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Wed Mar 16 11:42:18 2005
+	Thread Manager Started.
+Wed Mar 16 11:42:18 2005
+	New Thread Created. (VirtualGrabberThread) ThreadID = 3360
+Wed Mar 16 11:42:18 2005
+	New Thread Created. (BrainThread) ThreadID = 3264
+Wed Mar 16 11:42:18 2005
+	New Thread Created. (VirtualFieldThread) ThreadID = 3364
+Wed Mar 16 11:43:19 2005
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 3364
+Wed Mar 16 11:43:20 2005
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 3264
+Wed Mar 16 11:43:20 2005
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 3360
+Wed Mar 16 11:43:20 2005
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Fri Jun 16 07:16:44 2006
+	Thread Manager Started.
+Fri Jun 16 07:16:45 2006
+	New Thread Created. (VirtualGrabberThread) ThreadID = 3652
+Fri Jun 16 07:16:45 2006
+	New Thread Created. (BrainThread) ThreadID = 3656
+Fri Jun 16 07:16:45 2006
+	New Thread Created. (VirtualFieldThread) ThreadID = 748
+Fri Jun 16 07:16:47 2006
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 748
+Fri Jun 16 07:16:47 2006
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 3656
+Fri Jun 16 07:16:47 2006
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 3652
+Fri Jun 16 07:16:48 2006
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Fri Dec 15 19:42:27 2006
+	Thread Manager Started.
+Fri Dec 15 19:42:28 2006
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2452
+Fri Dec 15 19:42:28 2006
+	New Thread Created. (BrainThread) ThreadID = 2488
+Fri Dec 15 19:42:28 2006
+	New Thread Created. (VirtualFieldThread) ThreadID = 2456
+Fri Dec 15 19:42:55 2006
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 2456
+Fri Dec 15 19:42:56 2006
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2488
+Fri Dec 15 19:42:56 2006
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2452
+Fri Dec 15 19:42:57 2006
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Wed Mar 14 16:39:08 2007
+	Thread Manager Started.
+Wed Mar 14 16:39:08 2007
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2728
+Wed Mar 14 16:39:08 2007
+	New Thread Created. (BrainThread) ThreadID = 2732
+Wed Mar 14 16:39:08 2007
+	New Thread Created. (VirtualFieldThread) ThreadID = 2736
+Wed Mar 14 16:39:25 2007
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 2736
+Wed Mar 14 16:39:25 2007
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2732
+Wed Mar 14 16:39:25 2007
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2728
+Wed Mar 14 16:39:25 2007
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Tue Apr 24 17:24:04 2007
+	Thread Manager Started.
+Tue Apr 24 17:24:04 2007
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2748
+Tue Apr 24 17:24:04 2007
+	New Thread Created. (BrainThread) ThreadID = 2572
+Tue Apr 24 17:24:04 2007
+	New Thread Created. (VirtualFieldThread) ThreadID = 2376
+Tue Apr 24 17:24:50 2007
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 2376
+Tue Apr 24 17:24:51 2007
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2572
+Tue Apr 24 17:24:51 2007
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2748
+Tue Apr 24 17:24:51 2007
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Tue Apr 24 17:28:04 2007
+	Thread Manager Started.
+Tue Apr 24 17:28:04 2007
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2464
+Tue Apr 24 17:28:04 2007
+	New Thread Created. (BrainThread) ThreadID = 3496
+Tue Apr 24 17:28:04 2007
+	New Thread Created. (VirtualFieldThread) ThreadID = 1512
+Tue Apr 24 17:29:20 2007
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 1512
+Tue Apr 24 17:29:20 2007
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 3496
+Tue Apr 24 17:29:20 2007
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2464
+Tue Apr 24 17:29:20 2007
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Tue Apr 24 17:39:24 2007
+	Thread Manager Started.
+Tue Apr 24 17:39:24 2007
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2592
+Tue Apr 24 17:39:24 2007
+	New Thread Created. (BrainThread) ThreadID = 3760
+Tue Apr 24 17:39:24 2007
+	New Thread Created. (VirtualFieldThread) ThreadID = 2500
+Tue Apr 24 17:41:31 2007
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 2500
+Tue Apr 24 17:41:31 2007
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 3760
+Tue Apr 24 17:41:31 2007
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2592
+Tue Apr 24 17:41:31 2007
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Tue Nov 09 16:41:53 2010
+	Thread Manager Started.
+Tue Nov 09 16:41:54 2010
+	New Thread Created. (VirtualGrabberThread) ThreadID = 2572
+Tue Nov 09 16:41:54 2010
+	New Thread Created. (BrainThread) ThreadID = 2068
+Tue Nov 09 16:41:54 2010
+	New Thread Created. (VirtualFieldThread) ThreadID = 1704
+Tue Nov 09 16:41:57 2010
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 1704
+Tue Nov 09 16:41:57 2010
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2068
+Tue Nov 09 16:41:57 2010
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 2572
+Tue Nov 09 16:41:57 2010
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Tue Nov 09 16:42:19 2010
+	Thread Manager Started.
+Tue Nov 09 16:42:20 2010
+	New Thread Created. (VirtualGrabberThread) ThreadID = 4140
+Tue Nov 09 16:42:20 2010
+	New Thread Created. (BrainThread) ThreadID = 960
+Tue Nov 09 16:42:20 2010
+	New Thread Created. (VirtualFieldThread) ThreadID = 1036
+Tue Nov 09 16:42:25 2010
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 1036
+Tue Nov 09 16:42:25 2010
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 960
+Tue Nov 09 16:42:25 2010
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 4140
+Tue Nov 09 16:42:25 2010
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Thu Nov 11 11:22:15 2010
+	Thread Manager Started.
+Thu Nov 11 11:22:15 2010
+	New Thread Created. (VirtualGrabberThread) ThreadID = 5724
+Thu Nov 11 11:22:15 2010
+	New Thread Created. (BrainThread) ThreadID = 5528
+Thu Nov 11 11:22:15 2010
+	New Thread Created. (VirtualFieldThread) ThreadID = 5772
+Thu Nov 11 11:24:09 2010
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 5772
+Thu Nov 11 11:24:09 2010
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 5528
+Thu Nov 11 11:24:09 2010
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 5724
+Thu Nov 11 11:24:10 2010
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Sat Mar 19 19:24:55 2011
+	Thread Manager Started.
+Sat Mar 19 19:24:55 2011
+	New Thread Created. (VirtualGrabberThread) ThreadID = 7392
+Sat Mar 19 19:24:55 2011
+	New Thread Created. (BrainThread) ThreadID = 6872
+Sat Mar 19 19:24:55 2011
+	New Thread Created. (VirtualFieldThread) ThreadID = 7136
+Sat Mar 19 19:25:02 2011
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 7136
+Sat Mar 19 19:25:02 2011
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 6872
+Sat Mar 19 19:25:02 2011
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 7392
+Sat Mar 19 19:25:02 2011
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Sat Mar 26 18:50:01 2011
+	Thread Manager Started.
+Sat Mar 26 18:50:01 2011
+	New Thread Created. (VirtualGrabberThread) ThreadID = 5712
+Sat Mar 26 18:50:01 2011
+	New Thread Created. (BrainThread) ThreadID = 2524
+Sat Mar 26 18:50:01 2011
+	New Thread Created. (VirtualFieldThread) ThreadID = 6700
+Sat Mar 26 18:50:36 2011
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 6700
+Sat Mar 26 18:50:36 2011
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 2524
+Sat Mar 26 18:50:36 2011
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 5712
+Sat Mar 26 18:50:39 2011
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Wed Nov 23 08:40:59 2011
+	Thread Manager Started.
+Wed Nov 23 08:41:00 2011
+	New Thread Created. (VirtualGrabberThread) ThreadID = 4412
+Wed Nov 23 08:41:00 2011
+	New Thread Created. (BrainThread) ThreadID = 4932
+Wed Nov 23 08:41:00 2011
+	New Thread Created. (VirtualFieldThread) ThreadID = 2136
+Wed Nov 23 08:42:07 2011
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 2136
+Wed Nov 23 08:42:08 2011
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 4932
+Wed Nov 23 08:42:08 2011
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 4412
+Wed Nov 23 08:42:08 2011
+	Thread Manager Ended.
+------------------------------------------------
+------------------------------------------------
+Wed Nov 23 08:42:32 2011
+	Thread Manager Started.
+Wed Nov 23 08:42:32 2011
+	New Thread Created. (VirtualGrabberThread) ThreadID = 5824
+Wed Nov 23 08:42:32 2011
+	New Thread Created. (BrainThread) ThreadID = 360
+Wed Nov 23 08:42:32 2011
+	New Thread Created. (VirtualFieldThread) ThreadID = 4052
+Wed Nov 23 08:42:38 2011
+	Thread Exited with code: 0 (VirtualFieldThread). ThreadID = 4052
+Wed Nov 23 08:42:38 2011
+	Thread (Ex)Terminated. He didn't make it. (BrainThread) ThreadID = 360
+Wed Nov 23 08:42:38 2011
+	Thread (Ex)Terminated. He didn't make it. (VirtualGrabberThread) ThreadID = 5824
+Wed Nov 23 08:42:38 2011
+	Thread Manager Ended.
+------------------------------------------------

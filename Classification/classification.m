@@ -14,9 +14,17 @@ Y = sim(net, gen);
 %%
 numberOfSubsets = 11;
 numberOfDataInSubset = floor(length(gen)/(numberOfSubsets - 1));
-genSubsets = mat2cell(gen, 2, [(numberOfSubsets - 1) * ones(1, numberOfDataInSubset), length(gen) - (numberOfSubsets - 1) * numberOfDataInSubset]);
+genSubsets = mat2cell(gen, 2, [numberOfDataInSubset * ones(1, numberOfSubsets - 1), length(gen) - (numberOfSubsets - 1) * numberOfDataInSubset]);
 
+%%
 for subsetIndex = 1 : numberOfSubsets
     genTest = genSubsets{subsetIndex};
-    genLearn = cell2mat(genSubsets)
+    if subsetIndex == 1
+        genLearn = cell2mat(genSubsets(2:end));
+    elseif subsetIndex == numberOfSubsets
+        genLearn = cell2mat(genSubsets(1:end-1));
+    else
+        genLearn = cell2mat(genSubsets([1:(subsetIndex - 1), (subsetIndex + 1):end]));
+    end
+   % genLearn = cell2mat(genSubsets);
 end

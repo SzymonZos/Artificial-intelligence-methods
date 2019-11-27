@@ -1,0 +1,5 @@
+CreateBlocks(3);
+ontable('A');
+on('B','A');
+holding('C');
+DrawBlocks();

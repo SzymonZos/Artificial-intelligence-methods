@@ -1,0 +1,5 @@
+Temp = CreateBlocks(5);
+Temp = ontable('B', Temp);
+Temp = on('C','B', Temp);
+Temp = ontable('A', Temp);
+Temp = on('D','A', Temp);
