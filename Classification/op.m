@@ -1,27 +1,3 @@
-%% Init
-clear all
-close all
-
-load Data_PTC_vs_FTC.mat
-
-gen(1,:) = Data.X(765,:);
-gen(2,:) = Data.X(900,:);
-t = Data.D;
-t(t == -1) = 0;
-
-%% Calcs
-numberOfSubsets = 5;
-computeKfold(gen, t, numberOfSubsets);
-
-numberOfSubsets = 7;
-computeKfold(gen, t, numberOfSubsets);
-
-numberOfSubsets = 10;
-computeKfold(gen, t, numberOfSubsets);
-
-numberOfSubsets = 12;
-computeKfold(gen, t, numberOfSubsets);
-
 %% Code
 %
 % function computeKfold(gen, t, numberOfSubsets)
