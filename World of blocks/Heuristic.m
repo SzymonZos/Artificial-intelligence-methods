@@ -77,7 +77,7 @@ try
     
     cost(2)=cost(2)+sum(abs(vertcat(Blocks.ontable)-vertcat(Final.ontable)));
     cost(2)=cost(2)+sum(abs(vertcat(Blocks.clear)-vertcat(Final.clear)));
-    %tu jakies wagi
+    
 catch
     Possible=0;
 end

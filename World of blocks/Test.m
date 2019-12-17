@@ -1,30 +1,27 @@
-%%
+%% Zad 2
+numberOfBlocks = 4;
+Init = CreateBlocks(numberOfBlocks);
+Init = ontable('A', Init);
+Init = ontable('C', Init);
+Init = on('D', 'C', Init);
+Init = holding('B', Init);
 
-Init=ReadSTRIPS('Init.txt');
-Final=ReadSTRIPS('Fin.txt');
-%%
-%Je¿eli wczytywanie z pliku nie dzia³a to mo¿na zadeklarowaæ zmienne rêcznie:
-%
-%Init=CreateBlocks(3);
-%Init=ontable('A',Init);
-%Init=on('B','A',Init);
-%Init=holding('C',Init);
-%Final=CreateBlocks(3);
-%Final=ontable('B',Final);
-%Final=on('C','B',Final);
-%Final=ontable('A',Final);
+Final = CreateBlocks(numberOfBlocks);
+Final = ontable('B', Final);
+Final = on('D', 'B', Final);
+Final = ontable('C', Final);
+Final = on('A', 'C', Final);
 
-% Na obecn¹ chwilê dostêpne s¹ 2 alorytmy planowania
-SolutionsBF=BruteForce(Init,Final);
-SolutionsH=Heuristic(Init,Final);
+Solutions_2 = show_results(Init, Final, numberOfBlocks, @Heuristic);
 
-% Ta funkcja s³u¿y jedynie do wyœwietlania kolejnych kroków. Nie jest potrzebna
-Path=FinalPath(SolutionsH); 
+%% Zad 3
+disp('Heuristic default');
+Solutions_3 = test_set_of_blocks(@Heuristic);
 
-disp('Algorytm heurystyczny');
-disp(['liczba kroków: ' num2str(SolutionsH(size(SolutionsH,2)).cost(1)) ]);
-disp(['przeanalizowano ' num2str(size(SolutionsH,2)) ' przypadków']);
+%% Zad 4
+disp('Heuristic modified');
+Solutions_4 = test_set_of_blocks(@HeuristicModified);
 
-disp('Przegl¹d zupe³ny');
-disp(['liczba kroków: ' num2str(SolutionsBF(size(SolutionsBF,2)).cost(1)) ]);
-disp(['przeanalizowano ' num2str(size(SolutionsBF,2)) ' przypadków']);
+%% Zad 5
+disp('Heuristic not optimal');
+Solutions_5 = test_set_of_blocks(@HeuristicNotOptimal);

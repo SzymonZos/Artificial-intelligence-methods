@@ -1,6 +1,9 @@
 *.asv
 *.pdf
-
-lab2.m
-lab2_2.m
-lab2_3.m
+*.zip
+*.odt
+**/.idea
+**/venv
+**/html
+/Formal
+/Robotics
